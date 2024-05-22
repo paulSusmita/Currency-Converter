@@ -12,7 +12,9 @@
     min-height: 100vh;
     padding: 16px;
 }
-
+.baseline{
+  align-items: baseline;
+}
 .custom-card{
     max-width: 400px;
     background-color: midnightblue;

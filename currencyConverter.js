@@ -30,7 +30,7 @@ export default class CurrencyConverter extends LightningElement {
         try{
           const data = await fetch(API_URL)
           const jsonData = await data.json()
-          debugger;
+          
           // this.result = (Number(this.amount) * jsonData.result).toFixed(2)
           this.result = (Number(this.amount) * jsonData.conversion_rate).toFixed(2)
           console.log(this.result)
